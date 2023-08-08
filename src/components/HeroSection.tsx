@@ -23,10 +23,10 @@ export const HeroSection: FunctionComponent<HeroSectionProps> = () => {
             <Heading fontSize="xl" mb={4} color="black.500">
               We build bespoke financial software for global clients.
             </Heading>
-            <Button pb="10px" onClick={()=> window.open('https://pukzi11x7je.typeform.com/to/u3nv0DxB', '_blank')}>
+            <Button  onClick={()=> window.open('https://pukzi11x7je.typeform.com/to/u3nv0DxB', '_blank')}>
               Get In Touch
             </Button>
-            <Text>© Collar Networks, Inc. 2023</Text>
+            <Text pt="10px">© Collar Networks, Inc. 2023</Text>
           </Container>
         </VStack>
       </Center>
