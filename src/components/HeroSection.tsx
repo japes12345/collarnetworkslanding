@@ -26,6 +26,7 @@ export const HeroSection: FunctionComponent<HeroSectionProps> = () => {
             <Button onClick={()=> window.open('https://pukzi11x7je.typeform.com/to/u3nv0DxB', '_blank')}>
               Get In Touch
             </Button>
+            <Text>© Collar Networks, Inc. 2023</Text>
           </Container>
         </VStack>
       </Center>
