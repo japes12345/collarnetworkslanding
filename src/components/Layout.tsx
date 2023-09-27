@@ -9,7 +9,7 @@ export const Layout: FunctionComponent<LayoutProps> = ({
   children,
 }: LayoutProps) => {
   return (
-    <Box >
+    <Box bg="#FCFC95" height="100vh">
       <VStack spacing={10} w="full" align="center">
         {/* <Header name="Collar"/> */}
         {children}
