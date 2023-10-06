@@ -6,6 +6,7 @@ import {
   Link,
   Text,
   VStack,
+  Image,
 } from "@chakra-ui/react";
 import { FunctionComponent } from "react";
 
@@ -29,7 +30,10 @@ export const HeroSection: FunctionComponent<HeroSectionProps> = () => {
               Get In Touch
             </Button>
             <Text pt="10px">© Collar Networks, Inc. 2023</Text>
+            
           </Container>
+          <Image pt="60px" width="150px" src="public/orangeclean.png"></Image>
+
         </VStack>
       </Center>
     </Container>
