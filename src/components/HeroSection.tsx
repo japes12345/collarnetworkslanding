@@ -32,7 +32,7 @@ export const HeroSection: FunctionComponent<HeroSectionProps> = () => {
             <Text pt="10px">© Collar Networks, Inc. 2023</Text>
             
           </Container>
-          <Image pt="60px" width="150px" src="public/orangeclean.png"></Image>
+          <Image pt="60px" width="150px" src="src/assets/orangeclean.png"></Image>
 
         </VStack>
       </Center>
