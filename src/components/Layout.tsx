@@ -1,5 +1,6 @@
 import { Box, VStack } from "@chakra-ui/react";
 import { FunctionComponent } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -14,6 +15,7 @@ export const Layout: FunctionComponent<LayoutProps> = ({
         {/* <Header name="Collar"/> */}
         {children}
       </VStack>
+      <Analytics />
     </Box>
   );
 };
